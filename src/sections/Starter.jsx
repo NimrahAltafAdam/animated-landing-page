@@ -4,10 +4,13 @@ import Button from "../components/Button";
 import {GoPlay} from "react-icons/go";
 import {HiOutlineArrowNarrowRight} from "react-icons/hi";
 import  "../styles/sections/Starter.scss";
+import Navbar from '../components/Navbar';
 
 function Starter() {
   return (
     <div className = "main_container">
+    {/* Nvabar */}
+    <Navbar /> 
     <div className = "container">
     <div className = "content">
 
